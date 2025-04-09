@@ -4,7 +4,7 @@ A simple Node.js + Express + MySQL API for managing schools, allowing users to a
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add new schools with name, address, latitude, and longitude
 - Retrieve schools sorted by geographical distance (using Haversine formula)
@@ -12,7 +12,7 @@ A simple Node.js + Express + MySQL API for managing schools, allowing users to a
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 - **Backend:** Node.js, Express.js
 - **Database:** MySQL (with MySQL2 Promise-based client)
