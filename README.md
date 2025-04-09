@@ -85,6 +85,7 @@ You should get the response as :
 ### 6. To check the listSchools API(GET method) add this URL in your browser :
 
 URL : http://localhost:3000/api/listSchools?latitude=28.60&longitude=77.22
+
 You should get the response as :
 
 ```json
