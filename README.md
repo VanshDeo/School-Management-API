@@ -66,6 +66,8 @@ npx nodemon index.js
 ```
 ### 5. To check addSchool API(POST method) add this API endpoint in Postman :
 
+In the Postman App choose POST method and add this URL : https://localhost:3000/api/addSchool and add this in Body : 
+
 ```json
   {
     "name": "Narayana School",
@@ -84,7 +86,7 @@ You should get the response as :
 ```
 ### 6. To check the listSchools API(GET method) add this URL in your browser :
 
-URL : http://localhost:3000/api/listSchools?latitude=28.60&longitude=77.22
+URL : https://localhost:3000/api/listSchools?latitude=28.60&longitude=77.22
 
 You should get the response as :
 
@@ -101,5 +103,51 @@ You should get the response as :
 ]
 ```
 
+
+## For Direct checking the deployed link :
+
+### To check addSchool API(POST method) add this API endpoint in Postman :
+
+In the Postman App choose POST method and add this URL : https://school-management-api-production-aab7.up.railway.app/api/addSchool and add this in Body : 
+
+```json
+  {
+    "name": "Narayana School",
+    "address": "Sonarpur",
+    "latitude": 28.60,
+    "longitude": 77.22
+  }
+```
+You should get the response as :
+
+```json
+{
+  "msg": "School added successfully",
+  "id": 1
+}
+```
+
+### To check the listSchools API(GET method) add this URL in your browser :
+
+URL : https://school-management-api-production-aab7.up.railway.app/api/listSchools?latitude=28.60&longitude=77.22
+
+You should get the response as :
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Narayana School",
+    "address": "Sonarpur",
+    "latitude": 28.60,
+    "longitude": 77.22,
+    "distance": 0
+  }
+]
+```
+
+## Here is the full Postman Collection of the POST and GET request created to test the API :
+
+URL : https://vanshdeo.postman.co/workspace/Vansh-Deo's-Workspace~874a38a9-894b-45a5-811b-88f8bba93c26/collection/43585749-551abaff-a9cb-4580-8a84-76356da1da05?action=share&creator=43585749
 
 
