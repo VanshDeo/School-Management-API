@@ -71,7 +71,7 @@ npx nodemon index.js
     "name": "Narayana School",
     "address": "Sonarpur",
     "latitude": 28.60,
-    "longitude": 77.22,
+    "longitude": 77.22
   }
 ```
 You should get the response as :
