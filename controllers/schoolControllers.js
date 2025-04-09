@@ -9,7 +9,7 @@ export const addSchool = async (req, res) => {
     }
     try {
         const [result] = await db.query("INSERT INTO schools (name, address, latitude, longitude) VALUES (?, ?, ?, ?)", [name, address, latitude, longitude]);
-        res.status(201).json({id: result.insertId, name, address, latitude, longitude});
+        res.status(201).json({msg : "School added successfully", id: result.insertId});
     }
     catch (error) {
         console.error("Error adding school:", error.message);
